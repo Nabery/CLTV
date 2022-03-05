@@ -1,12 +1,5 @@
-const persona =  {
+var http = require('http')
 
-    firstName : 'John',
-    lastName : 'Pearls',
-    id : "1337",
-    fullName : function fullName(firstName,LastName){return this.firstName + this.lastName},
-}
-
-
-
-
-console.log(persona.lastName)
+http.createServer(function(req,res){
+    res.end('Teste')
+}).listen(8081)
