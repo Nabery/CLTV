@@ -1,0 +1,124 @@
+html {
+    font-family: 'Nunito';
+}
+
+body {
+    background-color: #130f0d;
+    color: white;
+}
+
+.boards {
+    display: flex;
+    margin-top: 300 px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.board {
+    background: #141316;
+    border: 1px solid #FD951F11;
+    border-radius: 4px;
+
+    margin: 16px;
+}
+
+
+.board.lista{
+    border: 1px solid;
+    margin: 16px;
+    padding:0px;
+
+}
+.board.hibrida{
+    background: #141316;
+    border: 1px solid #FD951F11;
+    border-radius: 4px;
+    margin: 22px;
+}
+.dropzone.hibrida{
+    padding: 1px;
+    min-width: 100px;
+    min-height: 50px;
+}
+
+.board h3 {
+    padding: 16px;
+    margin: 0;
+    color: deepskyblue;
+}
+
+.board h3.decoders{
+    
+    color: #0cdf6bcc;
+}
+
+.board h3.lista{
+    color:snow
+
+}
+
+.dropzone {
+    padding: 5px;
+    min-width: 201px;
+    min-height: 200px;
+}
+
+.card {
+    background-color: #1A1A1C;
+    padding: 16px;
+    box-shadow: 0 2px 2px -1px #faf8f8cc;
+    width: 250px;
+    margin: 3px 0;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 18px;
+    display: inline-block;
+
+}
+
+.comStat {
+    width: 30px;
+    height: 8px;
+    background: gray;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+
+.highlight {
+    background-color: #ece3e408;
+}
+
+.card, .dropzone {
+    transition: 400ms;
+}
+
+.is-dragging {
+    cursor: move;
+    opacity: .2;
+}
+
+.over {
+    background-color: #4cd13711;
+}
+
+
+.content{
+  text-transform:capitalize;
+}
+.credits{
+  content: 'teste';
+}
+
+.comTypeName{
+    font-size: 25px;
+    color: red;
+}
+.comStat.dejero{
+  background:deepskyblue;
+  
+}
+.comStat.hibrid{
+  background:red;
+}
+
