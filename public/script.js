@@ -145,7 +145,7 @@ function setComs(outid,card){
        case 'rd3':
        case 'rd4':
          comType.classList.add('hibrid')
-         comName.innerHTML = 'COLOQUE UMA HIBRIDA'
+         comName.innerHTML = 'COLOQUE UMA HÍBRIDA'
     }
   
 }
