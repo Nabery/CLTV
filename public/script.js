@@ -39,6 +39,11 @@ function clicked() {
         comName.innerHTML = 'COMUNICA: HÍBRIDA '+name
         comType.classList.add('hibrid')
       break
+    case 'jd':
+            comType.classList.remove('hibrid')
+            comType.classList.add('dejero")
+            comName.innerHTML = 'COMUNICA: JUN'
+     break;
   }
 }
 
