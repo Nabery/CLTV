@@ -43,7 +43,7 @@ function clicked() {
             comType.classList.remove('hibrid')
             comType.classList.add('dejero")
             comName.innerHTML = 'COMUNICA: JUN'
-     break;
+     break
   }
 }
 
